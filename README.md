@@ -60,11 +60,6 @@ RateBondTermSpreadArbitrage/
 ├── requirements.txt # 依赖包列表
 └── results/ # 回测结果输出（指标、图表、交易日志）
 
-## 环境配置
-### 1. 依赖包安装
-```bash
-pip install -r requirements.txt
-
 ## 核心代码实现
 ### 1. 配置文件（config.py）
 ```python
@@ -96,3 +91,7 @@ PLOT_HEIGHT = 8            # 图表高度
 if not os.path.exists(RESULTS_DIR):
     os.makedirs(RESULTS_DIR)
 
+## 环境配置
+### 1. 依赖包安装
+```bash
+pip install -r requirements.txt
