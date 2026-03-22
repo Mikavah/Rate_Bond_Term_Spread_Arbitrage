@@ -60,6 +60,9 @@ RateBondTermSpreadArbitrage/
 ├── requirements.txt # 依赖包列表
 └── results/ # 回测结果输出（指标、图表、交易日志）
 
+<img width="712" height="1984" alt="image" src="https://github.com/user-attachments/assets/ceef0a64-999d-48ae-90bb-43984739a2b1" />
+
+
 ## 核心代码实现
 ### 1. 配置文件（config.py）
 ```python
